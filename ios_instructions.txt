@@ -1,0 +1,15 @@
+ResultCare iOS Coding Challenge
+
+We intentionally created a broad challenge so that you have the ability to showcase your creativity and design skills in addition to coding experience.  They way you interpret this challenge is totally based on your imagination, there are no right or wrong answers.  We only ask that you design this app from scratch, please do not recycle code or features from pre-existing work.  
+
+You have one hour to create an iOS app (please use Swift) pertaining to either pets or boba tea.  Ideally your app should be able to do the following: 
+
+-two screens that the user can navigate between
+-Create a button that does something when clicked
+-Display a picture
+-Pass information between the two screens 
+-Retrieve and display any data of your choosing from an API which you select that pertains to your app.
+
+Once you are finished, please create a local branch titled (yournamename-codingchallenge) and push your app onto our coding challenge repo here:
+https://github.com/sterlingann/CodingChallenges.git
+(Don’t forget to submit a merge request :)
