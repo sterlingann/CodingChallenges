@@ -60,7 +60,7 @@
     
     self.score.text = tempResult;
     
-    if(self.totalImages > 2){
+    if(self.totalImages > 20){
         [self performSegueWithIdentifier:@"gg" sender:self];
     }
 }
