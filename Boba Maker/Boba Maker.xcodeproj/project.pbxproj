@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF880E5327ABB0CD808A996 /* Pods_Boba_MakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33952394324F95A318231EB0 /* Pods_Boba_MakerTests.framework */; };
+		760657A0BCD7C861C6104DD1 /* Pods_Boba_MakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C756CF970CDA94BA425436 /* Pods_Boba_MakerUITests.framework */; };
+		819125CE1F16DAA800E0927D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125CD1F16DAA800E0927D /* AppDelegate.swift */; };
+		819125D01F16DAA800E0927D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125CF1F16DAA800E0927D /* ViewController.swift */; };
+		819125D31F16DAA800E0927D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819125D11F16DAA800E0927D /* Main.storyboard */; };
+		819125D51F16DAA800E0927D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819125D41F16DAA800E0927D /* Assets.xcassets */; };
+		819125D81F16DAA800E0927D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819125D61F16DAA800E0927D /* LaunchScreen.storyboard */; };
+		819125E31F16DAA800E0927D /* Boba_MakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125E21F16DAA800E0927D /* Boba_MakerTests.swift */; };
+		819125EE1F16DAA800E0927D /* Boba_MakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125ED1F16DAA800E0927D /* Boba_MakerUITests.swift */; };
+		819125FC1F16DBF900E0927D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125FB1F16DBF900E0927D /* homeViewController.swift */; };
+		819125FE1F16DC0F00E0927D /* bobaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125FD1F16DC0F00E0927D /* bobaViewController.swift */; };
+		819126001F16E04400E0927D /* flavoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819125FF1F16E04400E0927D /* flavoringViewController.swift */; };
+		819126021F16E05500E0927D /* toppingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819126011F16E05500E0927D /* toppingsViewController.swift */; };
+		819126041F16E06900E0927D /* doneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819126031F16E06900E0927D /* doneViewController.swift */; };
+		BAB357F1D3392A8EA5EC0ABB /* Pods_Boba_Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E88A63B75B0241946ECA44 /* Pods_Boba_Maker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819125DF1F16DAA800E0927D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819125C21F16DAA700E0927D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819125C91F16DAA700E0927D;
+			remoteInfo = "Boba Maker";
+		};
+		819125EA1F16DAA800E0927D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819125C21F16DAA700E0927D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819125C91F16DAA700E0927D;
+			remoteInfo = "Boba Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C39541FF7CB7622DAC5F5DE /* Pods-Boba MakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba MakerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31E88A63B75B0241946ECA44 /* Pods_Boba_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_Maker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33952394324F95A318231EB0 /* Pods_Boba_MakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_MakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEBB8A3AFC77A0AB41A2C2A /* Pods-Boba MakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba MakerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E8CEE042D4B3320AF7A773F /* Pods-Boba Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Maker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Maker/Pods-Boba Maker.debug.xcconfig"; sourceTree = "<group>"; };
+		819125CA1F16DAA800E0927D /* Boba Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boba Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819125CD1F16DAA800E0927D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819125CF1F16DAA800E0927D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819125D21F16DAA800E0927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		819125D41F16DAA800E0927D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819125D71F16DAA800E0927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819125D91F16DAA800E0927D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819125DE1F16DAA800E0927D /* Boba MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boba MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819125E21F16DAA800E0927D /* Boba_MakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boba_MakerTests.swift; sourceTree = "<group>"; };
+		819125E41F16DAA800E0927D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819125E91F16DAA800E0927D /* Boba MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boba MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		819125ED1F16DAA800E0927D /* Boba_MakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boba_MakerUITests.swift; sourceTree = "<group>"; };
+		819125EF1F16DAA800E0927D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819125FB1F16DBF900E0927D /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		819125FD1F16DC0F00E0927D /* bobaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bobaViewController.swift; sourceTree = "<group>"; };
+		819125FF1F16E04400E0927D /* flavoringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flavoringViewController.swift; sourceTree = "<group>"; };
+		819126011F16E05500E0927D /* toppingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toppingsViewController.swift; sourceTree = "<group>"; };
+		819126031F16E06900E0927D /* doneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doneViewController.swift; sourceTree = "<group>"; };
+		A58F88BFED759C7D724EAD9C /* Pods-Boba Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Maker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boba Maker/Pods-Boba Maker.release.xcconfig"; sourceTree = "<group>"; };
+		C0C756CF970CDA94BA425436 /* Pods_Boba_MakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_MakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC04211443DCC2B0F358EFA /* Pods-Boba MakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba MakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6DDCC7F79707D25115F08F5 /* Pods-Boba MakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba MakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819125C71F16DAA700E0927D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB357F1D3392A8EA5EC0ABB /* Pods_Boba_Maker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125DB1F16DAA800E0927D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF880E5327ABB0CD808A996 /* Pods_Boba_MakerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125E61F16DAA800E0927D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760657A0BCD7C861C6104DD1 /* Pods_Boba_MakerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D783DB941B8E9D1996C6A5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E8CEE042D4B3320AF7A773F /* Pods-Boba Maker.debug.xcconfig */,
+				A58F88BFED759C7D724EAD9C /* Pods-Boba Maker.release.xcconfig */,
+				F6DDCC7F79707D25115F08F5 /* Pods-Boba MakerTests.debug.xcconfig */,
+				DFC04211443DCC2B0F358EFA /* Pods-Boba MakerTests.release.xcconfig */,
+				0C39541FF7CB7622DAC5F5DE /* Pods-Boba MakerUITests.debug.xcconfig */,
+				4BEBB8A3AFC77A0AB41A2C2A /* Pods-Boba MakerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F7C92B8DD7C62A60F2BE8FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E88A63B75B0241946ECA44 /* Pods_Boba_Maker.framework */,
+				33952394324F95A318231EB0 /* Pods_Boba_MakerTests.framework */,
+				C0C756CF970CDA94BA425436 /* Pods_Boba_MakerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		819125C11F16DAA700E0927D = {
+			isa = PBXGroup;
+			children = (
+				819125CC1F16DAA800E0927D /* Boba Maker */,
+				819125E11F16DAA800E0927D /* Boba MakerTests */,
+				819125EC1F16DAA800E0927D /* Boba MakerUITests */,
+				819125CB1F16DAA800E0927D /* Products */,
+				2D783DB941B8E9D1996C6A5D /* Pods */,
+				3F7C92B8DD7C62A60F2BE8FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		819125CB1F16DAA800E0927D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819125CA1F16DAA800E0927D /* Boba Maker.app */,
+				819125DE1F16DAA800E0927D /* Boba MakerTests.xctest */,
+				819125E91F16DAA800E0927D /* Boba MakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819125CC1F16DAA800E0927D /* Boba Maker */ = {
+			isa = PBXGroup;
+			children = (
+				819125CD1F16DAA800E0927D /* AppDelegate.swift */,
+				819125CF1F16DAA800E0927D /* ViewController.swift */,
+				819125D11F16DAA800E0927D /* Main.storyboard */,
+				819125D41F16DAA800E0927D /* Assets.xcassets */,
+				819125D61F16DAA800E0927D /* LaunchScreen.storyboard */,
+				819125D91F16DAA800E0927D /* Info.plist */,
+				819125FB1F16DBF900E0927D /* homeViewController.swift */,
+				819125FD1F16DC0F00E0927D /* bobaViewController.swift */,
+				819125FF1F16E04400E0927D /* flavoringViewController.swift */,
+				819126011F16E05500E0927D /* toppingsViewController.swift */,
+				819126031F16E06900E0927D /* doneViewController.swift */,
+			);
+			path = "Boba Maker";
+			sourceTree = "<group>";
+		};
+		819125E11F16DAA800E0927D /* Boba MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				819125E21F16DAA800E0927D /* Boba_MakerTests.swift */,
+				819125E41F16DAA800E0927D /* Info.plist */,
+			);
+			path = "Boba MakerTests";
+			sourceTree = "<group>";
+		};
+		819125EC1F16DAA800E0927D /* Boba MakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819125ED1F16DAA800E0927D /* Boba_MakerUITests.swift */,
+				819125EF1F16DAA800E0927D /* Info.plist */,
+			);
+			path = "Boba MakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819125C91F16DAA700E0927D /* Boba Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819125F21F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba Maker" */;
+			buildPhases = (
+				6DB104D9809976438DD7034D /* [CP] Check Pods Manifest.lock */,
+				819125C61F16DAA700E0927D /* Sources */,
+				819125C71F16DAA700E0927D /* Frameworks */,
+				819125C81F16DAA700E0927D /* Resources */,
+				C0A41C3B70E727F1D8AED6FF /* [CP] Embed Pods Frameworks */,
+				619505A5A80190BC0138C9F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boba Maker";
+			productName = "Boba Maker";
+			productReference = 819125CA1F16DAA800E0927D /* Boba Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819125DD1F16DAA800E0927D /* Boba MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819125F51F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba MakerTests" */;
+			buildPhases = (
+				32C7DC599C4E976BF97817DE /* [CP] Check Pods Manifest.lock */,
+				819125DA1F16DAA800E0927D /* Sources */,
+				819125DB1F16DAA800E0927D /* Frameworks */,
+				819125DC1F16DAA800E0927D /* Resources */,
+				1A5A38A388D6600EFFCBEF58 /* [CP] Embed Pods Frameworks */,
+				61A45F1E3E028D6DA9E76062 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819125E01F16DAA800E0927D /* PBXTargetDependency */,
+			);
+			name = "Boba MakerTests";
+			productName = "Boba MakerTests";
+			productReference = 819125DE1F16DAA800E0927D /* Boba MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819125E81F16DAA800E0927D /* Boba MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819125F81F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba MakerUITests" */;
+			buildPhases = (
+				D4B260587F95FA7C2001786A /* [CP] Check Pods Manifest.lock */,
+				819125E51F16DAA800E0927D /* Sources */,
+				819125E61F16DAA800E0927D /* Frameworks */,
+				819125E71F16DAA800E0927D /* Resources */,
+				E0D27B1033DB8BD58F9AA680 /* [CP] Embed Pods Frameworks */,
+				1934F1B7C960931F1123313A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819125EB1F16DAA800E0927D /* PBXTargetDependency */,
+			);
+			name = "Boba MakerUITests";
+			productName = "Boba MakerUITests";
+			productReference = 819125E91F16DAA800E0927D /* Boba MakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819125C21F16DAA700E0927D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Evan Chang";
+				TargetAttributes = {
+					819125C91F16DAA700E0927D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+					};
+					819125DD1F16DAA800E0927D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819125C91F16DAA700E0927D;
+					};
+					819125E81F16DAA800E0927D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819125C91F16DAA700E0927D;
+					};
+				};
+			};
+			buildConfigurationList = 819125C51F16DAA700E0927D /* Build configuration list for PBXProject "Boba Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819125C11F16DAA700E0927D;
+			productRefGroup = 819125CB1F16DAA800E0927D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819125C91F16DAA700E0927D /* Boba Maker */,
+				819125DD1F16DAA800E0927D /* Boba MakerTests */,
+				819125E81F16DAA800E0927D /* Boba MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819125C81F16DAA700E0927D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819125D81F16DAA800E0927D /* LaunchScreen.storyboard in Resources */,
+				819125D51F16DAA800E0927D /* Assets.xcassets in Resources */,
+				819125D31F16DAA800E0927D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125DC1F16DAA800E0927D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125E71F16DAA800E0927D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1934F1B7C960931F1123313A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A5A38A388D6600EFFCBEF58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C7DC599C4E976BF97817DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		619505A5A80190BC0138C9F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba Maker/Pods-Boba Maker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A45F1E3E028D6DA9E76062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB104D9809976438DD7034D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A41C3B70E727F1D8AED6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba Maker/Pods-Boba Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B260587F95FA7C2001786A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D27B1033DB8BD58F9AA680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819125C61F16DAA700E0927D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819125D01F16DAA800E0927D /* ViewController.swift in Sources */,
+				819125FC1F16DBF900E0927D /* homeViewController.swift in Sources */,
+				819126041F16E06900E0927D /* doneViewController.swift in Sources */,
+				819126021F16E05500E0927D /* toppingsViewController.swift in Sources */,
+				819126001F16E04400E0927D /* flavoringViewController.swift in Sources */,
+				819125FE1F16DC0F00E0927D /* bobaViewController.swift in Sources */,
+				819125CE1F16DAA800E0927D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125DA1F16DAA800E0927D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819125E31F16DAA800E0927D /* Boba_MakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819125E51F16DAA800E0927D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819125EE1F16DAA800E0927D /* Boba_MakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819125E01F16DAA800E0927D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819125C91F16DAA700E0927D /* Boba Maker */;
+			targetProxy = 819125DF1F16DAA800E0927D /* PBXContainerItemProxy */;
+		};
+		819125EB1F16DAA800E0927D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819125C91F16DAA700E0927D /* Boba Maker */;
+			targetProxy = 819125EA1F16DAA800E0927D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819125D11F16DAA800E0927D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819125D21F16DAA800E0927D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819125D61F16DAA800E0927D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819125D71F16DAA800E0927D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819125F01F16DAA800E0927D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819125F11F16DAA800E0927D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819125F31F16DAA800E0927D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8CEE042D4B3320AF7A773F /* Pods-Boba Maker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba Maker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		819125F41F16DAA800E0927D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58F88BFED759C7D724EAD9C /* Pods-Boba Maker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba Maker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		819125F61F16DAA800E0927D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DDCC7F79707D25115F08F5 /* Pods-Boba MakerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba MakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boba Maker.app/Boba Maker";
+			};
+			name = Debug;
+		};
+		819125F71F16DAA800E0927D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC04211443DCC2B0F358EFA /* Pods-Boba MakerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba MakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boba Maker.app/Boba Maker";
+			};
+			name = Release;
+		};
+		819125F91F16DAA800E0927D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C39541FF7CB7622DAC5F5DE /* Pods-Boba MakerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba MakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Boba Maker";
+			};
+			name = Debug;
+		};
+		819125FA1F16DAA800E0927D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEBB8A3AFC77A0AB41A2C2A /* Pods-Boba MakerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
+				INFOPLIST_FILE = "Boba MakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bluem.Boba-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Boba Maker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819125C51F16DAA700E0927D /* Build configuration list for PBXProject "Boba Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819125F01F16DAA800E0927D /* Debug */,
+				819125F11F16DAA800E0927D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819125F21F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819125F31F16DAA800E0927D /* Debug */,
+				819125F41F16DAA800E0927D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		819125F51F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819125F61F16DAA800E0927D /* Debug */,
+				819125F71F16DAA800E0927D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		819125F81F16DAA800E0927D /* Build configuration list for PBXNativeTarget "Boba MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819125F91F16DAA800E0927D /* Debug */,
+				819125FA1F16DAA800E0927D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 819125C21F16DAA700E0927D /* Project object */;
+}

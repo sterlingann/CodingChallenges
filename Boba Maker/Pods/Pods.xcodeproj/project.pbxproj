@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00006A17EF5C5471CF2C8EE0245CB792 /* Pods-Boba MakerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97486D11A6326FC8AE3185BE7B58FF97 /* Pods-Boba MakerTests-dummy.m */; };
+		019D66AFEC4B101680E5872B874212E9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */; };
+		0D675583F6502ED3D87AC75D07E650EF /* Pods-Boba MakerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F0A0F0CB200B71C2C1AB21B6425474 /* Pods-Boba MakerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0D4B7C2127E04772D5156ADC656D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2AE59BE130AD1576163B169B7CFCA55D /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */; };
+		333906F71F29BCAC86DE1E714928744D /* ForecastIO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */; };
+		3A575CFA095F3D01D29F9F4FE561DBCB /* Pods-Boba MakerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C965B70138C070F329D7425962C777 /* Pods-Boba MakerUITests-dummy.m */; };
+		4D28B2C2D41AA509839523EA019B7BDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		601F1B1C8DFA1E08F4DB3002EC888F82 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */; };
+		62D6A90AB568011348B4081CAC4C0DC8 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425878C620F423582EAAF95112D3106 /* Units.swift */; };
+		6CEEB1CB5CDDFB15E636A282DD7B8834 /* Pods-Boba MakerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7E3533E6CB4E66591AE010FB723635 /* Pods-Boba MakerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD87C63182D24135F437AF974F8E4B4 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */; };
+		81851667331B1DF6174A558047BE1BEA /* ForecastIOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */; };
+		88D7419E7DF8410EBFAAD323562FD913 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */; };
+		901B537C50A75ED7D31FE2EA33F5659B /* ForecastIO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DA9DAF5453FC8FC2683C2C56C4E0BE /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */; };
+		B7E25CFE205E1A00AB0A0614EE719B62 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */; };
+		BD999B497F81FE4133BF13323869B10D /* DataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */; };
+		C603ACC6B40C57EB62FF5561135B1927 /* Pods-Boba Maker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5292E4D592D94C72EEE60B8C84E917 /* Pods-Boba Maker-dummy.m */; };
+		C9B930D245E603D8001B40F20597ADBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CFE641BFC14E301E1EE7C91A20DE362D /* Precipitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */; };
+		D588523B80B0D43F19BE9E3AC2A2F688 /* RequestMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */; };
+		D7C4EB2DB6A5054C1CFB63922FDD022A /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */; };
+		DEDA291B7C675E6005DF80D1D40EFE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F686C648EB7A684E9688BB3E085DCA93 /* Pods-Boba Maker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D741730568CEF74A9CFDB8FBF9C73C3 /* Pods-Boba Maker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4C120FBC42DAB0343F103C0E43ACD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F19738396425B89322D95E08B55C21F;
+			remoteInfo = ForecastIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BBEA69298DBDAB55087E469A0DA4268 /* Pods_Boba_MakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Boba_MakerTests.framework; path = "Pods-Boba MakerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB57F312BB37E1BBECC005FB1EE8105 /* Pods-Boba MakerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba MakerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		16EF95020F84D42DE05D6CB48E44FB69 /* Pods-Boba MakerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Boba MakerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestMetadata.swift; path = Source/RequestMetadata.swift; sourceTree = "<group>"; };
+		1D741730568CEF74A9CFDB8FBF9C73C3 /* Pods-Boba Maker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Boba Maker-umbrella.h"; sourceTree = "<group>"; };
+		1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Source/Alert.swift; sourceTree = "<group>"; };
+		39AD1624CDA80FC2EE5D19EB86651FEB /* Pods-Boba MakerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba MakerUITests-resources.sh"; sourceTree = "<group>"; };
+		3FCB9813AF12329BBDC42899BB468DD1 /* Pods-Boba MakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba MakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40C71B82F1D334970E1B76F7646D0B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42347F610D0EA9A64FF474E61DD4EE04 /* Pods-Boba MakerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Boba MakerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		472A4AD79D5942DA007D5F9279CA79B4 /* Pods-Boba MakerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba MakerTests-frameworks.sh"; sourceTree = "<group>"; };
+		4E65B63CFCCAB246C0DAB6545451BB3C /* ForecastIO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForecastIO-prefix.pch"; sourceTree = "<group>"; };
+		4F9BF644D4973674C4DBA6891F4AC645 /* Pods-Boba Maker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Boba Maker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5425878C620F423582EAAF95112D3106 /* Units.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Units.swift; path = Source/Units.swift; sourceTree = "<group>"; };
+		57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForecastIO-umbrella.h"; sourceTree = "<group>"; };
+		59C30D2F148D3E4FF937F9A1FA3FAC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5292E4D592D94C72EEE60B8C84E917 /* Pods-Boba Maker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Boba Maker-dummy.m"; sourceTree = "<group>"; };
+		5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		5C01E2985FAD7F9509E14991257C7559 /* Pods-Boba Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba Maker.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7E3533E6CB4E66591AE010FB723635 /* Pods-Boba MakerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Boba MakerTests-umbrella.h"; sourceTree = "<group>"; };
+		5CE026CE1447BCDD7F517FBE53A6FF6D /* Pods-Boba Maker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba Maker-resources.sh"; sourceTree = "<group>"; };
+		5E47C300FF31248FE15A00F5FC580164 /* ForecastIO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ForecastIO.modulemap; sourceTree = "<group>"; };
+		659621EFBB6B54FE8474A756D54456E7 /* Pods-Boba MakerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Boba MakerUITests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataBlock.swift; path = Source/DataBlock.swift; sourceTree = "<group>"; };
+		7554880CDB2D302AB0A5CA3C195F4A52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C965B70138C070F329D7425962C777 /* Pods-Boba MakerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Boba MakerUITests-dummy.m"; sourceTree = "<group>"; };
+		7B5F5DD95A52777A90CBBDE48F4E13FE /* Pods-Boba Maker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Boba Maker-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C2D1D57C4AB19A291366CD67AC5C3C3 /* Pods-Boba MakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba MakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		808CFCB99ACE40B75D9684FD2CEAF150 /* Pods-Boba MakerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Boba MakerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Precipitation.swift; path = Source/Precipitation.swift; sourceTree = "<group>"; };
+		89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Source/Flag.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97486D11A6326FC8AE3185BE7B58FF97 /* Pods-Boba MakerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Boba MakerTests-dummy.m"; sourceTree = "<group>"; };
+		9C2FE77A4FB793D3FEBF9446E247C1B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A325C83F0D9D0F27D4ECE1B199D54534 /* Pods-Boba MakerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Boba MakerTests.modulemap"; sourceTree = "<group>"; };
+		AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ForecastIO.xcconfig; sourceTree = "<group>"; };
+		AC45AA2CB5A87A208D2E0E082FED254A /* Pods-Boba MakerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Boba MakerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastIOError.swift; path = Source/ForecastIOError.swift; sourceTree = "<group>"; };
+		B8854AA6051F5E691E76FD8E66ADD0E0 /* Pods-Boba Maker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba Maker-frameworks.sh"; sourceTree = "<group>"; };
+		BF057008A3B44BEF4FCB4CCD8704DF8C /* Pods-Boba Maker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Boba Maker.modulemap"; sourceTree = "<group>"; };
+		C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Source/Language.swift; sourceTree = "<group>"; };
+		C53A2EECC0B76206B1B55CB73020B26D /* Pods-Boba MakerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Boba MakerTests-resources.sh"; sourceTree = "<group>"; };
+		CB6A6F3AF35F2C730A9E1F5A240148DA /* Pods-Boba MakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba MakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D09B9888448434120DFD66839B431344 /* ForecastIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ForecastIO.framework; path = ForecastIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EFFD292EE846A5ECA047B7B3AE4DA7 /* Pods_Boba_MakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Boba_MakerUITests.framework; path = "Pods-Boba MakerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A965822DC543FCC465163DBE00F350 /* Pods-Boba Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba Maker.release.xcconfig"; sourceTree = "<group>"; };
+		DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DarkSkyClient.swift; path = Source/DarkSkyClient.swift; sourceTree = "<group>"; };
+		E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = Source/Forecast.swift; sourceTree = "<group>"; };
+		E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Icon.swift; path = Source/Icon.swift; sourceTree = "<group>"; };
+		E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataPoint.swift; path = Source/DataPoint.swift; sourceTree = "<group>"; };
+		E2F0A0F0CB200B71C2C1AB21B6425474 /* Pods-Boba MakerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Boba MakerUITests-umbrella.h"; sourceTree = "<group>"; };
+		EA1139925FA8E9D15E9AFF4910EE0BCD /* Pods_Boba_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Boba_Maker.framework; path = "Pods-Boba Maker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD10A84C78B82643B15F086C0BE88F3 /* Pods-Boba MakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Boba MakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ForecastIO-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0157CA13693918542850E5AB2217C0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDA291B7C675E6005DF80D1D40EFE37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7481F3758A5A49B5BCF8240FDDCF8D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B930D245E603D8001B40F20597ADBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5466B5754F846D2D5303F1D2698FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D28B2C2D41AA509839523EA019B7BDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AC34AD859A4337CB275CFB009B535B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0D4B7C2127E04772D5156ADC656D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AAE1EA0AC6541309B156A89E2E8298 /* ForecastIO */ = {
+			isa = PBXGroup;
+			children = (
+				1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */,
+				DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */,
+				699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */,
+				E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */,
+				89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */,
+				E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */,
+				B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */,
+				E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */,
+				C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */,
+				856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */,
+				1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */,
+				5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */,
+				5425878C620F423582EAAF95112D3106 /* Units.swift */,
+				C1E5024B01F1AB57F31EF3435E953A62 /* Support Files */,
+			);
+			name = ForecastIO;
+			path = ForecastIO;
+			sourceTree = "<group>";
+		};
+		195C6AF852621E80D99BC7DC30F350AF /* Pods-Boba Maker */ = {
+			isa = PBXGroup;
+			children = (
+				7554880CDB2D302AB0A5CA3C195F4A52 /* Info.plist */,
+				BF057008A3B44BEF4FCB4CCD8704DF8C /* Pods-Boba Maker.modulemap */,
+				4F9BF644D4973674C4DBA6891F4AC645 /* Pods-Boba Maker-acknowledgements.markdown */,
+				7B5F5DD95A52777A90CBBDE48F4E13FE /* Pods-Boba Maker-acknowledgements.plist */,
+				5B5292E4D592D94C72EEE60B8C84E917 /* Pods-Boba Maker-dummy.m */,
+				B8854AA6051F5E691E76FD8E66ADD0E0 /* Pods-Boba Maker-frameworks.sh */,
+				5CE026CE1447BCDD7F517FBE53A6FF6D /* Pods-Boba Maker-resources.sh */,
+				1D741730568CEF74A9CFDB8FBF9C73C3 /* Pods-Boba Maker-umbrella.h */,
+				5C01E2985FAD7F9509E14991257C7559 /* Pods-Boba Maker.debug.xcconfig */,
+				D6A965822DC543FCC465163DBE00F350 /* Pods-Boba Maker.release.xcconfig */,
+			);
+			name = "Pods-Boba Maker";
+			path = "Target Support Files/Pods-Boba Maker";
+			sourceTree = "<group>";
+		};
+		223F1515A8E3251C88060C9F1A4F26CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16AAE1EA0AC6541309B156A89E2E8298 /* ForecastIO */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		243CF86BBEA94C4F3F2C3E9D86C49D36 /* Pods-Boba MakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2FE77A4FB793D3FEBF9446E247C1B7 /* Info.plist */,
+				659621EFBB6B54FE8474A756D54456E7 /* Pods-Boba MakerUITests.modulemap */,
+				AC45AA2CB5A87A208D2E0E082FED254A /* Pods-Boba MakerUITests-acknowledgements.markdown */,
+				16EF95020F84D42DE05D6CB48E44FB69 /* Pods-Boba MakerUITests-acknowledgements.plist */,
+				79C965B70138C070F329D7425962C777 /* Pods-Boba MakerUITests-dummy.m */,
+				0CB57F312BB37E1BBECC005FB1EE8105 /* Pods-Boba MakerUITests-frameworks.sh */,
+				39AD1624CDA80FC2EE5D19EB86651FEB /* Pods-Boba MakerUITests-resources.sh */,
+				E2F0A0F0CB200B71C2C1AB21B6425474 /* Pods-Boba MakerUITests-umbrella.h */,
+				3FCB9813AF12329BBDC42899BB468DD1 /* Pods-Boba MakerUITests.debug.xcconfig */,
+				7C2D1D57C4AB19A291366CD67AC5C3C3 /* Pods-Boba MakerUITests.release.xcconfig */,
+			);
+			name = "Pods-Boba MakerUITests";
+			path = "Target Support Files/Pods-Boba MakerUITests";
+			sourceTree = "<group>";
+		};
+		29046B35808220143CD4E1756FC2E9E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				195C6AF852621E80D99BC7DC30F350AF /* Pods-Boba Maker */,
+				BC052EA101A01BDFCFCF74EFC5D46A28 /* Pods-Boba MakerTests */,
+				243CF86BBEA94C4F3F2C3E9D86C49D36 /* Pods-Boba MakerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				223F1515A8E3251C88060C9F1A4F26CA /* Pods */,
+				FEB4D378C7DA09395B08ED9153EA4BD2 /* Products */,
+				29046B35808220143CD4E1756FC2E9E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC052EA101A01BDFCFCF74EFC5D46A28 /* Pods-Boba MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				59C30D2F148D3E4FF937F9A1FA3FAC88 /* Info.plist */,
+				A325C83F0D9D0F27D4ECE1B199D54534 /* Pods-Boba MakerTests.modulemap */,
+				42347F610D0EA9A64FF474E61DD4EE04 /* Pods-Boba MakerTests-acknowledgements.markdown */,
+				808CFCB99ACE40B75D9684FD2CEAF150 /* Pods-Boba MakerTests-acknowledgements.plist */,
+				97486D11A6326FC8AE3185BE7B58FF97 /* Pods-Boba MakerTests-dummy.m */,
+				472A4AD79D5942DA007D5F9279CA79B4 /* Pods-Boba MakerTests-frameworks.sh */,
+				C53A2EECC0B76206B1B55CB73020B26D /* Pods-Boba MakerTests-resources.sh */,
+				5C7E3533E6CB4E66591AE010FB723635 /* Pods-Boba MakerTests-umbrella.h */,
+				CB6A6F3AF35F2C730A9E1F5A240148DA /* Pods-Boba MakerTests.debug.xcconfig */,
+				EAD10A84C78B82643B15F086C0BE88F3 /* Pods-Boba MakerTests.release.xcconfig */,
+			);
+			name = "Pods-Boba MakerTests";
+			path = "Target Support Files/Pods-Boba MakerTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E5024B01F1AB57F31EF3435E953A62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E47C300FF31248FE15A00F5FC580164 /* ForecastIO.modulemap */,
+				AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */,
+				F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */,
+				4E65B63CFCCAB246C0DAB6545451BB3C /* ForecastIO-prefix.pch */,
+				57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */,
+				40C71B82F1D334970E1B76F7646D0B57 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ForecastIO";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FEB4D378C7DA09395B08ED9153EA4BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09B9888448434120DFD66839B431344 /* ForecastIO.framework */,
+				EA1139925FA8E9D15E9AFF4910EE0BCD /* Pods_Boba_Maker.framework */,
+				0BBEA69298DBDAB55087E469A0DA4268 /* Pods_Boba_MakerTests.framework */,
+				D4EFFD292EE846A5ECA047B7B3AE4DA7 /* Pods_Boba_MakerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73DD82E0BFABD7C598D696A4F04D412D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEEB1CB5CDDFB15E636A282DD7B8834 /* Pods-Boba MakerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AC2A621F16F028584539BD907BBA95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F686C648EB7A684E9688BB3E085DCA93 /* Pods-Boba Maker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B92A976027ADEC7B0C66A17CC60FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D675583F6502ED3D87AC75D07E650EF /* Pods-Boba MakerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4A3E337AF3DDAB1EAE641FA7E0C009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901B537C50A75ED7D31FE2EA33F5659B /* ForecastIO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		084735965BF5DF5A8B261A05A0B5395E /* Pods-Boba MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C0FBC20BE9997276A7AA654B2B7AD8 /* Build configuration list for PBXNativeTarget "Pods-Boba MakerTests" */;
+			buildPhases = (
+				2F36182AC750EFD60C8042E702058981 /* Sources */,
+				7481F3758A5A49B5BCF8240FDDCF8D74 /* Frameworks */,
+				73DD82E0BFABD7C598D696A4F04D412D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Boba MakerTests";
+			productName = "Pods-Boba MakerTests";
+			productReference = 0BBEA69298DBDAB55087E469A0DA4268 /* Pods_Boba_MakerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E0C4385792806C6A8BDDF5C061C4809 /* Pods-Boba Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE062435C69C95C9B3B0CCC77F98DBA /* Build configuration list for PBXNativeTarget "Pods-Boba Maker" */;
+			buildPhases = (
+				AD574F927AB6BD4FAE918DBDF0C11E16 /* Sources */,
+				0157CA13693918542850E5AB2217C0BF /* Frameworks */,
+				E6AC2A621F16F028584539BD907BBA95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47965084D5452DF9F3E730EE4A2C28D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Boba Maker";
+			productName = "Pods-Boba Maker";
+			productReference = EA1139925FA8E9D15E9AFF4910EE0BCD /* Pods_Boba_Maker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F19738396425B89322D95E08B55C21F /* ForecastIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E057A4869B0EAAF5B844DA7D75290117 /* Build configuration list for PBXNativeTarget "ForecastIO" */;
+			buildPhases = (
+				6B59307687557A05B2C731F106D06CF2 /* Sources */,
+				7B5466B5754F846D2D5303F1D2698FC8 /* Frameworks */,
+				FA4A3E337AF3DDAB1EAE641FA7E0C009 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForecastIO;
+			productName = ForecastIO;
+			productReference = D09B9888448434120DFD66839B431344 /* ForecastIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B033394E6257E90326FDA2643DAB5E9 /* Pods-Boba MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAB95F10E6F7CA03ED24F18D758C4BE /* Build configuration list for PBXNativeTarget "Pods-Boba MakerUITests" */;
+			buildPhases = (
+				F979823DA872FB5B7553F7AB1EF28239 /* Sources */,
+				F7AC34AD859A4337CB275CFB009B535B /* Frameworks */,
+				F5B92A976027ADEC7B0C66A17CC60FE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Boba MakerUITests";
+			productName = "Pods-Boba MakerUITests";
+			productReference = D4EFFD292EE846A5ECA047B7B3AE4DA7 /* Pods_Boba_MakerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEB4D378C7DA09395B08ED9153EA4BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F19738396425B89322D95E08B55C21F /* ForecastIO */,
+				1E0C4385792806C6A8BDDF5C061C4809 /* Pods-Boba Maker */,
+				084735965BF5DF5A8B261A05A0B5395E /* Pods-Boba MakerTests */,
+				8B033394E6257E90326FDA2643DAB5E9 /* Pods-Boba MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F36182AC750EFD60C8042E702058981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00006A17EF5C5471CF2C8EE0245CB792 /* Pods-Boba MakerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B59307687557A05B2C731F106D06CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D7419E7DF8410EBFAAD323562FD913 /* Alert.swift in Sources */,
+				D7C4EB2DB6A5054C1CFB63922FDD022A /* DarkSkyClient.swift in Sources */,
+				BD999B497F81FE4133BF13323869B10D /* DataBlock.swift in Sources */,
+				7FD87C63182D24135F437AF974F8E4B4 /* DataPoint.swift in Sources */,
+				2AE59BE130AD1576163B169B7CFCA55D /* Flag.swift in Sources */,
+				B7E25CFE205E1A00AB0A0614EE719B62 /* Forecast.swift in Sources */,
+				333906F71F29BCAC86DE1E714928744D /* ForecastIO-dummy.m in Sources */,
+				81851667331B1DF6174A558047BE1BEA /* ForecastIOError.swift in Sources */,
+				B5DA9DAF5453FC8FC2683C2C56C4E0BE /* Icon.swift in Sources */,
+				601F1B1C8DFA1E08F4DB3002EC888F82 /* Language.swift in Sources */,
+				CFE641BFC14E301E1EE7C91A20DE362D /* Precipitation.swift in Sources */,
+				D588523B80B0D43F19BE9E3AC2A2F688 /* RequestMetadata.swift in Sources */,
+				019D66AFEC4B101680E5872B874212E9 /* Result.swift in Sources */,
+				62D6A90AB568011348B4081CAC4C0DC8 /* Units.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD574F927AB6BD4FAE918DBDF0C11E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C603ACC6B40C57EB62FF5561135B1927 /* Pods-Boba Maker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F979823DA872FB5B7553F7AB1EF28239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A575CFA095F3D01D29F9F4FE561DBCB /* Pods-Boba MakerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47965084D5452DF9F3E730EE4A2C28D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForecastIO;
+			target = 3F19738396425B89322D95E08B55C21F /* ForecastIO */;
+			targetProxy = AC4C120FBC42DAB0343F103C0E43ACD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E949B6AB3E9A692D284CFC31BBB4BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A965822DC543FCC465163DBE00F350 /* Pods-Boba Maker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba Maker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba Maker/Pods-Boba Maker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_Maker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74196D87D8561DA472C182F1A590679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2D1D57C4AB19A291366CD67AC5C3C3 /* Pods-Boba MakerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba MakerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_MakerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8011552103201BC3F8F5F296F1DD3887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCB9813AF12329BBDC42899BB468DD1 /* Pods-Boba MakerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba MakerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba MakerUITests/Pods-Boba MakerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_MakerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D6B7D4687A71B16A8FFBB296E4D15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6A6F3AF35F2C730A9E1F5A240148DA /* Pods-Boba MakerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba MakerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_MakerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7F839F6D7AF72E047FBD8D1C3F429F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C01E2985FAD7F9509E14991257C7559 /* Pods-Boba Maker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba Maker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba Maker/Pods-Boba Maker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_Maker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED1D9BC13A2B1786C584C1A4B20FA814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForecastIO/ForecastIO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForecastIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForecastIO/ForecastIO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ForecastIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F429C5459ED432DEDA59D218D776A549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForecastIO/ForecastIO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForecastIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForecastIO/ForecastIO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ForecastIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAF1A2EE55D04C1FB3C65AB2D6C1285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD10A84C78B82643B15F086C0BE88F3 /* Pods-Boba MakerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Boba MakerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Boba MakerTests/Pods-Boba MakerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Boba_MakerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAB95F10E6F7CA03ED24F18D758C4BE /* Build configuration list for PBXNativeTarget "Pods-Boba MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8011552103201BC3F8F5F296F1DD3887 /* Debug */,
+				74196D87D8561DA472C182F1A590679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C0FBC20BE9997276A7AA654B2B7AD8 /* Build configuration list for PBXNativeTarget "Pods-Boba MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6B7D4687A71B16A8FFBB296E4D15A /* Debug */,
+				FAF1A2EE55D04C1FB3C65AB2D6C1285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE062435C69C95C9B3B0CCC77F98DBA /* Build configuration list for PBXNativeTarget "Pods-Boba Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F839F6D7AF72E047FBD8D1C3F429F2 /* Debug */,
+				4E949B6AB3E9A692D284CFC31BBB4BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E057A4869B0EAAF5B844DA7D75290117 /* Build configuration list for PBXNativeTarget "ForecastIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429C5459ED432DEDA59D218D776A549 /* Debug */,
+				ED1D9BC13A2B1786C584C1A4B20FA814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

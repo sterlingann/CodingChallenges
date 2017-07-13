@@ -1,0 +1,6 @@
+framework module Pods_Boba_MakerTests {
+  umbrella header "Pods-Boba MakerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
